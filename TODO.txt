@@ -1,0 +1,49 @@
+TODO Main Tasks:
+1 - Conceptualization
+2 - Simple vanilla stuff for experience
+3 - Creating items
+4 - Creating inventories
+5 - Creating energy system (perhaps use pre-existing systems, Redstone Flux?)
+6 - Item pipes
+
+TODO Conceptualization:
+General ideas:
+- Tech mod. A complete overhaul like DE
+- Tiered Resources
+    - After Netherite -> Our shit which is used for the rest of the mods stuff.
+        - [THIS IS JUST THE NEW TIERS] Overworld (1 tiers) -> Nether (2 tiers) ->  End (1 Tier) -> Creative (Test items, maybe obtainable?)
+- Equipment
+- Machines/blocks
+     - Energy Generation
+     - Energy Storage (Chargers?)
+     - Movement Systems (teleporter?)
+     - Material Machines
+        - Smelter
+        - Ore doubler
+        - Unique material processing
+     - Pocket farmers (Blocks that can be used to farm things)
+     - Quarry style machine (something like a quantum quarry)
+     - Item storage
+- Enchantments
+
+TODO Vanilla Items:
+- Create the new tier of things after Netherite
+    - Ore block
+    - Tools
+    - Weapons
+        - Ranged weapon
+        - Sword
+    - Armour
+    - Block
+    - Liquid (Machine to turn block into liquid)
+- A new enchantment
+- New food item
+    - Potions
+
+TODO Items:
+
+TODO Inventories:
+
+TODO Power Systems:
+
+TODO Item pipes:
