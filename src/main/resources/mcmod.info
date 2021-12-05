@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "Room53Mod",
+  "name": "Room53",
+  "description": "Mod made by Room 53",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["sQzxY", "Phos"],
+  "credits": "Room 53: sQzxY and Phos",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
