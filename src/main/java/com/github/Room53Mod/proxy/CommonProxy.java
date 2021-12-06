@@ -1,5 +1,6 @@
-package com.github.Room53Mod;
+package com.github.Room53Mod.proxy;
 
+import com.github.Room53Mod.Room53Mod;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

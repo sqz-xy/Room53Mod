@@ -1,5 +1,6 @@
 package com.github.Room53Mod;
 
+import com.github.Room53Mod.util.Reference;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
