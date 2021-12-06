@@ -1,14 +1,16 @@
 package com.github.Room53Mod;
 
+import com.github.Room53Mod.proxy.CommonProxy;
 import com.github.Room53Mod.util.Reference;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
+
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Room53Mod
@@ -16,25 +18,24 @@ public class Room53Mod
     @Mod.Instance
     public static Room53Mod instance;
 
-    private static Logger logger;
-
-    public static Item.ToolMaterial myToolMaterial;
-    public static Item mySword;
-
+    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
+    public static CommonProxy proxy;
 
     @EventHandler
-    public static void preInit(FMLPreInitializationEvent event) {
-        /* logger = event.getModLog(); */
-
-        myToolMaterial = EnumHelper.addToolMaterial("Cum", 4, 5, 100.0F,1000.0F, 300);
-        mySword = new CustomSword(myToolMaterial);
+    public void preInit(FMLPreInitializationEvent event)
+    {
 
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event) { /* logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); */ }
+    public void init(FMLInitializationEvent event)
+    {
+
+    }
 
     @EventHandler
-    public static void postInit(FMLPostInitializationEvent event) { /*logger = event.getModLog(); */ }
+    public void postInit(FMLPostInitializationEvent event)
+    {
 
+    }
 }

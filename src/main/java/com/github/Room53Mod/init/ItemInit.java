@@ -1,6 +1,6 @@
 package com.github.Room53Mod.init;
 
-import com.github.Room53Mod.objects.ItemBase;
+import com.github.Room53Mod.objects.items.ItemBase;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;

@@ -1,28 +1,11 @@
 package com.github.Room53Mod.proxy;
 
-import com.github.Room53Mod.Room53Mod;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber
-public class CommonProxy {
+public class CommonProxy
+{
+    public void registerItemRenderer(Item item, int meta, String id)
+    {
 
-    private static void registerRenders(ModelRegistryEvent event) {
-        registerRender(Room53Mod.mySword);
     }
-
-    private static void registerRender(Item item) {
-        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
-    }
-
-    @SubscribeEvent
-    public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(Room53Mod.mySword);
-    }
-
 }
