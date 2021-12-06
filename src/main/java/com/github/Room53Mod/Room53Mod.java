@@ -18,8 +18,18 @@ public class Room53Mod
 
     private static Logger logger;
 
+    public static Item.ToolMaterial myToolMaterial;
+    public static Item mySword;
+
+
     @EventHandler
-    public static void preInit(FMLPreInitializationEvent event) { /* logger = event.getModLog(); */ }
+    public static void preInit(FMLPreInitializationEvent event) {
+        /* logger = event.getModLog(); */
+
+        myToolMaterial = EnumHelper.addToolMaterial("Cum", 4, 5, 100.0F,1000.0F, 300);
+        mySword = new CustomSword(myToolMaterial);
+
+    }
 
     @EventHandler
     public void init(FMLInitializationEvent event) { /* logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); */ }
