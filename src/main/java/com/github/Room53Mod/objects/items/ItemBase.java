@@ -1,7 +1,19 @@
 package com.github.Room53Mod.objects.items;
 
+import com.github.Room53Mod.Room53Mod;
+import com.github.Room53Mod.util.interfaces.IHasModel;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item {
-    // NEEDS TO IMPLEMENT IHASMODEL
+public class ItemBase extends Item implements IHasModel {
+    public ItemBase(String pName) {
+        setUnlocalizedName(pName);
+        setRegistryName(pName);
+        setCreativeTab(CreativeTabs.MATERIALS);
+    }
+
+    @Override
+    public void registerModels() {
+        Room53Mod.proxy.registerItemRenderer(this, 0, "inventory");
+    }
 }

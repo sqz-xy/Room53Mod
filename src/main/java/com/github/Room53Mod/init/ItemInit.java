@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ItemInit {
-    public static final List<Item> ITEMS = new ArrayList<Item>();
+    public static final List<Item> ITEMS = new ArrayList<>();
 
-    public static final Item TEST_INGOT = new ItemBase();
+    public static final Item TEST_ITEM = new ItemBase("test_item");
 }
