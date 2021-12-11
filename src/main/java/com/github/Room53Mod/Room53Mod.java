@@ -1,7 +1,9 @@
 package com.github.Room53Mod;
 
 import com.github.Room53Mod.proxy.CommonProxy;
+import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -9,7 +11,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Room53Mod
@@ -19,6 +20,8 @@ public class Room53Mod
 
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
     public static CommonProxy proxy;
+
+    //public static final CreativeTabs ROOM53MODTAB = new Room53Tab("Room53Tab");
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
