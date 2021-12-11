@@ -1,5 +1,5 @@
 TODO Fixes:
-1 - Fix Item asset loading (File structure issue?) https://www.youtube.com/watch?v=_Qh0-pG2bD0&list=PLaevjqy3XufYkNu2PTTReZm0sSCshr-dW&index=3
 
 TODO Functionality:
+- Finish creative tab setup
 
