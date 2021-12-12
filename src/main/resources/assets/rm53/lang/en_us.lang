@@ -1,3 +1,6 @@
 item.test_item.name=Test Item
 
 tile.test_block.name=Test Block
+
+# Item groups / tabs
+itemGroup.Room53Tab=Room 53

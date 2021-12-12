@@ -21,7 +21,7 @@ public class Room53Mod
     @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
     public static CommonProxy proxy;
 
-    //public static final CreativeTabs ROOM53MODTAB = new Room53Tab("Room53Tab");
+    public static final CreativeTabs ROOM53MODTAB = new Room53Tab("Room53Tab");
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
