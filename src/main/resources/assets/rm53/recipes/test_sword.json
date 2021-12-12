@@ -1,0 +1,29 @@
+{
+   "type": "minecraft:crafting_shaped",
+
+   "pattern":
+   [
+      "I",
+      "I",
+      "S"
+   ],
+
+   "key":
+   {
+      "I":
+      {
+         "item": "rm53:test_item"
+      },
+
+      "S":
+      {
+         "item": "rm53:test_block"
+      }
+
+   },
+
+   "result":
+   {
+      "item" : "rm53:purple_sword"
+   }
+}
