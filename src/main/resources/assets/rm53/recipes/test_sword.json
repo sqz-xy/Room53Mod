@@ -12,12 +12,12 @@
    {
       "I":
       {
-         "item": "rm53:test_item"
+         "item": "rm53:cumium_gem"
       },
 
       "S":
       {
-         "item": "rm53:test_block"
+         "item": "minecraft:stick"
       }
 
    },
