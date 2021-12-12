@@ -1,4 +1,4 @@
-package com.github.Room53Mod.objects.items.baseclasses;
+package com.github.Room53Mod.objects.items;
 
 import com.github.Room53Mod.Room53Mod;
 import com.github.Room53Mod.init.ItemInit;
