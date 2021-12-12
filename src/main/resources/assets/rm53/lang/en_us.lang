@@ -1,6 +1,7 @@
 # Items
 item.test_item.name=Test Item
 item.purple_sword.name=Penetrator
+item.cumium_gem.name=Cumium
 
 # Tiles
 tile.test_block.name=Test Block
