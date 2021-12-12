@@ -29,16 +29,22 @@ General ideas:
 TODO Vanilla Items:
 - Create the new tier of things after Netherite
     - Ore block
+    - Material
     - Tools
+        - Shovel
+        - Pick
+        - Axe
+        - Hoe
     - Weapons
         - Ranged weapon
-        - Sword
+        ✓ Sword
     - Armour
-    - Block
+    ✓ Block
     - Liquid (Machine to turn block into liquid)
 - A new enchantment
 - New food item
     - Potions
+✓ Creative tab
 
 TODO Items:
 

@@ -1,9 +1,12 @@
 package com.github.Room53Mod.util.handlers;
 
+import com.github.Room53Mod.Room53Mod;
 import com.github.Room53Mod.init.BlockInit;
 import com.github.Room53Mod.init.ItemInit;
+import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -14,6 +17,9 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber
 public class RegistryHandler
 {
+
+    public static final CreativeTabs ROOM_53_TAB = Room53Mod.ROOM53MODTAB;
+
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event)
     {
