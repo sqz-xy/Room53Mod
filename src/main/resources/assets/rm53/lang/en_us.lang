@@ -4,6 +4,7 @@ item.purple_sword.name=Penetrator
 
 # Tiles
 tile.test_block.name=Test Block
+tile.cumium_ore.name=Cumium Ore
 
 # Item groups / tabs
 itemGroup.Room53Tab=Room 53
