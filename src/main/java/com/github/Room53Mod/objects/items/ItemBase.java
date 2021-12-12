@@ -6,7 +6,7 @@ import com.github.Room53Mod.util.interfaces.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item implements IHasModel {
+public abstract class ItemBase extends Item implements IHasModel {
     public ItemBase(String pName) {
         setUnlocalizedName(pName);
         setRegistryName(pName);

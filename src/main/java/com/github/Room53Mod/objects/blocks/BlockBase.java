@@ -13,7 +13,7 @@ import net.minecraft.item.ItemBlock;
 
 import java.util.Objects;
 
-public class BlockBase extends Block implements IHasModel {
+public abstract class BlockBase extends Block implements IHasModel {
     public BlockBase(String pName, Material pMaterial) {
         super(pMaterial);
         setUnlocalizedName(pName);
