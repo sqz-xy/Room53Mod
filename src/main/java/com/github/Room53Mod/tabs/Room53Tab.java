@@ -15,4 +15,9 @@ public class Room53Tab extends CreativeTabs {
     public @NotNull ItemStack getTabIconItem() {
         return new ItemStack(ItemInit.TEST_ITEM);
     }
+
+    @Override
+    public boolean hasSearchBar() {
+        return true;
+    }
 }
