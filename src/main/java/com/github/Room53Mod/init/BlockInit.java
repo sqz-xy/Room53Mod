@@ -4,6 +4,8 @@ import com.github.Room53Mod.objects.blocks.BlockBase;
 import com.github.Room53Mod.objects.blocks.TestBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
 import java.util.List;
