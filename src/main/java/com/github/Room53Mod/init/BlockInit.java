@@ -1,6 +1,6 @@
 package com.github.Room53Mod.init;
 
-import com.github.Room53Mod.objects.blocks.materialblocks.CumiumBlock;
+import com.github.Room53Mod.objects.blocks.materials.CumiumBlock;
 import com.github.Room53Mod.objects.blocks.ores.CumiumOre;
 import com.github.Room53Mod.objects.blocks.testblocks.TestBlock;
 import net.minecraft.block.Block;

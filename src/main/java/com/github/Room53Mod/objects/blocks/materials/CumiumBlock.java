@@ -1,4 +1,4 @@
-package com.github.Room53Mod.objects.blocks.materialblocks;
+package com.github.Room53Mod.objects.blocks.materials;
 
 import com.github.Room53Mod.Room53Mod;
 import com.github.Room53Mod.objects.blocks.BlockBase;

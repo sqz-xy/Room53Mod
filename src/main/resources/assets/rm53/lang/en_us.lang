@@ -3,6 +3,9 @@ item.test_item.name=Test Item
 item.cumium_sword.name=Cumium Sword
 item.cumium_gem.name=Cumium
 
+# Foods
+item.cumium_apple.name=Cumium Apple
+
 # Tiles
 tile.test_block.name=Test Block
 tile.cumium_ore.name=Cumium Ore

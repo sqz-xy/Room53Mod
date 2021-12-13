@@ -1,5 +1,6 @@
 package com.github.Room53Mod.init;
 
+import com.github.Room53Mod.objects.items.food.CumiumApple;
 import com.github.Room53Mod.objects.items.materials.CumiumGem;
 import com.github.Room53Mod.objects.items.testitems.TestItem;
 import com.github.Room53Mod.objects.items.tools.ToolSword;
@@ -24,5 +25,8 @@ public class ItemInit {
 
     // Materials
     public static final Item CUMIUM_GEM = new CumiumGem("cumium_gem");
+
+    // Food
+    public static final Item CUMIUM_APPLE = new CumiumApple("cumium_apple", 1.6f,6, false );
 
 }

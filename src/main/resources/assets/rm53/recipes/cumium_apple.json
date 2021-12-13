@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "III",
+    "IAI",
+    "III"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "rm53:cumium_gem"
+    },
+
+    "A":
+    {
+      "item": "minecraft:apple"
+    }
+
+  },
+
+  "result":
+  {
+    "item" : "rm53:cumium_apple"
+  }
+}
