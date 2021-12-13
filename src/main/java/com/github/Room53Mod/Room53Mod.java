@@ -3,6 +3,7 @@ package com.github.Room53Mod;
 import com.github.Room53Mod.proxy.CommonProxy;
 import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.Reference;
+import com.github.Room53Mod.world.gen.WorldGenOres;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -11,6 +12,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class Room53Mod
@@ -25,7 +27,7 @@ public class Room53Mod
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        GameRegistry.registerWorldGenerator(new WorldGenOres(), 3);
     }
 
     @EventHandler
