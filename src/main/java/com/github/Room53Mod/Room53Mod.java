@@ -1,6 +1,7 @@
 package com.github.Room53Mod;
 
 import com.github.Room53Mod.proxy.CommonProxy;
+import com.github.Room53Mod.recipes.SmeltingRecipes;
 import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.Reference;
 import com.github.Room53Mod.world.gen.WorldGenOres;
@@ -32,7 +33,7 @@ public class Room53Mod
 
     @EventHandler
     public void init(FMLInitializationEvent event){
-
+        SmeltingRecipes.init();
     }
 
     @EventHandler
