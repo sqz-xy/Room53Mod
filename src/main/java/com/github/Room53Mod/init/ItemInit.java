@@ -20,7 +20,7 @@ public class ItemInit {
     public static final Item TEST_ITEM = new TestItem("test_item");
 
     // Tools - Sword
-    public static final Item PURPLE_SWORD = new ToolSword("purple_sword", TOOL_PURPLE);
+    public static final Item PURPLE_SWORD = new ToolSword("cumium_sword", TOOL_PURPLE);
 
     // Materials
     public static final Item CUMIUM_GEM = new CumiumGem("cumium_gem");
