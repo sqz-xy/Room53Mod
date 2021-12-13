@@ -2,14 +2,10 @@ package com.github.Room53Mod.objects.items.food;
 
 import com.github.Room53Mod.Room53Mod;
 import com.github.Room53Mod.objects.items.FoodBase;
-import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.interfaces.IHasModel;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.MobEffects;
-import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 

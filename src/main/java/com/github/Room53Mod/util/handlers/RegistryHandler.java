@@ -3,7 +3,6 @@ package com.github.Room53Mod.util.handlers;
 import com.github.Room53Mod.Room53Mod;
 import com.github.Room53Mod.init.BlockInit;
 import com.github.Room53Mod.init.ItemInit;
-import com.github.Room53Mod.tabs.Room53Tab;
 import com.github.Room53Mod.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
