@@ -34,6 +34,7 @@ public class Room53Mod
     @EventHandler
     public void init(FMLInitializationEvent event){
         SmeltingRecipes.init();
+
     }
 
     @EventHandler
