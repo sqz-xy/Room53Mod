@@ -6,6 +6,7 @@ item.cumium_gem.name=Cumium
 # Tiles
 tile.test_block.name=Test Block
 tile.cumium_ore.name=Cumium Ore
+tile.cumium_block.name=Cumium Block
 
 # Item groups / tabs
 itemGroup.Room53Tab=Room 53

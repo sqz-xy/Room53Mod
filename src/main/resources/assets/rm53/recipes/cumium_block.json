@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "III",
+    "III",
+    "III"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "rm53:cumium_gem"
+    }
+
+  },
+
+  "result":
+  {
+    "item" : "rm53:cumium_block"
+  }
+}
