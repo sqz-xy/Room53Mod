@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "I"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "rm53:cumium_block"
+    }
+
+  },
+
+  "result":
+  {
+    "item" : "rm53:cumium_gem",
+    "count": 9
+  }
+}
